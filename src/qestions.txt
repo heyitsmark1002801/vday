@@ -1,0 +1,120 @@
+const quizData = [
+  {
+    question: "What is the capital of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 29700,
+    y: 43000
+  },
+
+  {
+    question: "What is the capital of ?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 19400,
+    y: 68000
+  },
+
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 3200,
+    y: 68000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 3800,
+    y: 61000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 6500,
+    y: 52000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 12000,
+    y: 50000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 13500,
+    y: 40000
+  },
+  // question aight multiple choice 
+  {
+    question: "What is this character's name?",
+    image: "cg.jpg", // Add an image for the question
+    choices: [ "Aлигатор Женя", "Крикодил Петя","Kрокодил Гена", "Волк"], // Add multiple choices
+    answer: "Kрокодил Гена",
+    hintImage: "./8.jpeg", // Add an image as a hint
+    x: 19990,
+    y: 55999
+  },
+  
+{
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 23500,
+    y: 70000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 24500,
+    y: 62000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 25200,
+    y: 54500
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 24200,
+    y: 52000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 27500,
+    y: 55000
+  },
+  // Add more buttons as needed
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 27500,
+    y: 50000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 23500,
+    y: 48000
+  },
+  {
+    question: "What is the  of France?",
+    answer: "Paris",
+    hint: "It's known as the 'City of Light'",
+    x: 21000,
+    y: 40000
+  },

@@ -1,0 +1,58 @@
+/* CodeInputContainer.css */
+
+.code-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Square columns */
+  gap: 10px;
+  justify-content: center;
+}
+
+.code-buttons-container button {
+  background-color: #ff4d6d; /* Valentine's Pink */
+  color: #ffffff; /* White text */
+  border: 2px solid #c41313; /* Red border */
+  padding: 0; /* Remove padding */
+  width: 50px; /* Adjusted button size */
+  height: 50px; /* Square shape */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px; /* Reduced spacing between buttons */
+  font-size: 0; /* Hide text */
+  font-weight: bold; /* Make text bold */
+  text-align: center; /* Center text */
+  line-height: 50px; /* Vertically center text */
+}
+
+
+/* Hover effect */
+.code-buttons-container button:hover {
+  background-color: #ff7598; /* Lighter shade of pink */
+  border-color: #ff4d6d; /* Lighter shade of red */
+}
+
+
+.code-buttons-container button:disabled {
+  background-color: #007bff; /* Color when unlocked */
+}
+
+.code-buttons-container button:hover {
+  background-color: #0056b3;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  margin: 0;
+}
+
+.exit-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
