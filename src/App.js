@@ -6,7 +6,7 @@ import Bottom from './Bottom';
 const quizData = [
   {
     question: "Name of convention we went to before ROM ?",
-    image: "LilP.jpeg", // Add an image for the question
+    image: "RC.jpeg", // Add an image for the question
     choices: [ "Toronto Comic Book Convention", "Toronto Comic Arts Festival","Toronto Arts and Comics Convention", "Zachs Comic Book Awards"], // Add multiple choices
     answer: "Toronto Comic Arts Festival",
     hintImage: "./1.jpeg",
@@ -57,6 +57,7 @@ const quizData = [
   },
   {
     question: "How many tattoos do I have?",
+    image: "2.jpg",
     answer: "11",
     hintImage: "./7.jpeg",
   
@@ -92,7 +93,7 @@ const quizData = [
   },
   {
     question: "What Millitary Battalion did I serve in?",
-    image: "",
+    image: "ar.jpeg",
     choices: [ "405", "404","403", "Artillery"],
     answer: "405",
     hintImage: "./11.jpeg",
@@ -108,6 +109,7 @@ const quizData = [
   },
   {
     question: "What animal were you excited to see on our drive to the Dead Sea?",
+    image:"is.jpeg",
     answer: "Camels",
     hintImage: "./13.jpeg",
     x: 27500,
