@@ -39,22 +39,22 @@ const CodeInputContainer = () => {
       const lowerCaseInputValue = inputValue.toLowerCase(); // Convert input to lowercase
       let newMessage = '';
       const codes = {
-        a3f7: 'I love how smart you are, always impressing me with your intelligence and quick wit.',
+        a3f7: 'I love how smart you are, always impressing me with your intelligence and yur constant new achievements.',
         k8g2: 'I love your sense of humor; you never fail to make me laugh, even on the toughest days.',
         p1r9: 'I love how effortlessly you connect with people, making everyone feel welcomed and appreciated.',
         b6t5: 'I love your beautiful smile; it lights up my world every time I see it.',
         m9w4: 'I love how patient and understanding you are, especially when you\'re teaching me new things.',
-        l2d8: 'I love your passion for learning and how you inspire me to broaden my horizons.',
-        x5s6: 'I love your kindness and compassion towards others; you have a heart of gold.',
+        l2d8: 'I love your passion for trying and how you inspire me to broaden my horizons.',
+        x5s6: 'I love your kindness, you have a heart of gold.',
         e7h3: 'I love your adventurous spirit, always up for trying new experiences and exploring new places together.',
         y4n1: 'I love your creativity; you have such a unique perspective on life and always think outside the box.',
         g6k9: 'I love your confidence and self-assurance; you know who you are and aren\'t afraid to be yourself.',
         c3q8: 'I love your thoughtfulness; you always go out of your way to make me feel loved and appreciated.',
-        r9z2: 'I love your optimism and positive outlook on life; you inspire me to see the good in every situation.',
-        f2p7: 'I love your strength and resilience; you face challenges head-on and never give up.',
-        v8j6: 'I love your sense of style and elegance; you always know how to put together the perfect outfit.',
-        h5m3: 'I love your determination and drive to succeed in everything you do.',
-        t1e4: 'I love your curiosity and thirst for knowledge; you\'re constantly seeking to learn and grow.'
+        r9z2: 'I love your always-positive vibe; it\'s contagious and makes everything seem better.',
+        f2p7: 'I love how strong you are, facing every challenge without ever backing down.',
+        v8j6: 'I love your hugs; they\'re like a comforting drug I can\'t get enough of.',
+        h5m3: 'I love the feel of your skin; it\'s so smooth and always comforting to touch.',
+        t1e4: 'I love fucking you .'
       };
 
       if (codes[lowerCaseInputValue]) {
@@ -87,7 +87,7 @@ const CodeInputContainer = () => {
     if (unlockedCodes[lowerCaseCode]) {
       switch (lowerCaseCode) {
         case 'a3f7':
-          newMessage = 'I love how smart you are, always impressing me with your intelligence and quick wit.';
+          newMessage = 'I love how smart you are, always impressing me with your intelligence and yur constant new achievements.';
           break;
         case 'k8g2':
           newMessage = 'I love your sense of humor; you never fail to make me laugh, even on the toughest days.';
@@ -102,7 +102,7 @@ const CodeInputContainer = () => {
           newMessage = 'I love how patient and understanding you are, especially when you\'re teaching me new things.';
           break;
         case 'l2d8':
-          newMessage = 'I love your passion for learning and how you inspire me to broaden my horizons.';
+          newMessage = 'I love your passion for trying and how you inspire me to broaden my horizons.';
           break;
         case 'x5s6':
           newMessage = 'I love your kindness and compassion towards others; you have a heart of gold.';

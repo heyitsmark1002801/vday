@@ -6,7 +6,7 @@ import Bottom from './Bottom';
 const quizData = [
   {
     question: "Name of convention we went to before ROM ?",
-    image: "hi", // Add an image for the question
+    image: "LilP.jpeg", // Add an image for the question
     choices: [ "Toronto Comic Book Convention", "Toronto Comic Arts Festival","Toronto Arts and Comics Convention", "Zachs Comic Book Awards"], // Add multiple choices
     answer: "Toronto Comic Arts Festival",
     hintImage: "./1.jpeg",
