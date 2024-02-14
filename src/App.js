@@ -3,6 +3,7 @@ import './App.css';
 import backgroundImage from './33049-113110.png'; // Import the background image
 import CodeInputContainer from './CodeInput';
 import Bottom from './Bottom';
+import LoadingScreen from './LoadingScreen';
 const quizData = [
   {
     question: "Name of convention we went to before ROM ?",
@@ -101,8 +102,9 @@ const quizData = [
     y: 54500
   },
   {
-    question: "What is the  of France?",
-    answer: "Paris",
+    question: "What is my favorite rock band",
+    image:"gh.jpeg",
+    answer: "City Morgue",
     hintImage: "./12.jpeg",
     x: 24200,
     y: 52000
@@ -153,6 +155,7 @@ const App = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cooldown, setCooldown] = useState(Array(quizData.length).fill(false));
   const [unlockedMessages, setUnlockedMessages] = useState([]);
+  const [loading, setLoading] = useState(true)
 
   const handleUnlockMessage = (message) => {
     setUnlockedMessages([...unlockedMessages, message]);
@@ -163,6 +166,10 @@ const App = () => {
     setValidCodeCount(count);
   };
  // Track cooldown for each question
+ useEffect(() => {
+  setTimeout(() => setLoading(false), 8000)
+}, [])
+
   useEffect(() => {
     const updateMousePosition = (event) => {
       setMousePosition({ x: event.clientX, y: event.clientY });
@@ -210,6 +217,7 @@ const App = () => {
   };
 
   return (
+    
     <div className="App" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '100vh' }}>
     <div className="map-container" style={{ position: 'relative', width: '100%', height: '100%' }}>
         {quizData.map((item, index) => (
@@ -263,6 +271,10 @@ const App = () => {
           </div>
         )}
       </div>
+      <>
+      {loading && <LoadingScreen />}
+      {/* Rest of your component's content */}
+    </>
       <CodeInputContainer onValidCodeCountChange={handleValidCodeCountChange} />
       <Bottom validCodeCount={validCodeCount} />
     </div>
