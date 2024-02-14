@@ -39,18 +39,18 @@ const CodeInputContainer = () => {
       const lowerCaseInputValue = inputValue.toLowerCase(); // Convert input to lowercase
       let newMessage = '';
       const codes = {
-        a3f7: 'I love how smart you are, always impressing me with your intelligence and yur constant new achievements.',
+        a3f7: 'I love how smart you are, always impressing me with your intelligence and your constant new achievements.',
         k8g2: 'I love your sense of humor; you never fail to make me laugh, even on the toughest days.',
         p1r9: 'I love how effortlessly you connect with people, making everyone feel welcomed and appreciated.',
         b6t5: 'I love your beautiful smile; it lights up my world every time I see it.',
-        m9w4: 'I love how patient and understanding you are, especially when you\'re teaching me new things.',
-        l2d8: 'I love your passion for trying and how you inspire me to broaden my horizons.',
+        m9w4: 'I love how you deal with hard situations, youre a strong woman',
+        l2d8: 'I love your ability to call out bullshit.',
         x5s6: 'I love your kindness, you have a heart of gold.',
         e7h3: 'I love your adventurous spirit, always up for trying new experiences and exploring new places together.',
-        y4n1: 'I love your creativity; you have such a unique perspective on life and always think outside the box.',
+        y4n1: 'I love your laugh and voice, it cures my retardation.',
         g6k9: 'I love your confidence and self-assurance; you know who you are and aren\'t afraid to be yourself.',
         c3q8: 'I love your thoughtfulness; you always go out of your way to make me feel loved and appreciated.',
-        r9z2: 'I love your always-positive vibe; it\'s contagious and makes everything seem better.',
+        r9z2: 'I love how you support me, i feel like Im a better person because of you',
         f2p7: 'I love how strong you are, facing every challenge without ever backing down.',
         v8j6: 'I love your hugs; they\'re like a comforting drug I can\'t get enough of.',
         h5m3: 'I love the feel of your skin; it\'s so smooth and always comforting to touch.',
@@ -99,19 +99,19 @@ const CodeInputContainer = () => {
           newMessage = 'I love your beautiful smile; it lights up my world every time I see it.';
           break;
         case 'm9w4':
-          newMessage = 'I love how patient and understanding you are, especially when you\'re teaching me new things.';
+          newMessage = 'I love how you deal with hard situations, youre a strong woman';
           break;
         case 'l2d8':
-          newMessage = 'I love your passion for trying and how you inspire me to broaden my horizons.';
+          newMessage = 'I love your ability to call out bullshit.';
           break;
         case 'x5s6':
-          newMessage = 'I love your kindness and compassion towards others; you have a heart of gold.';
+          newMessage = 'I love your kindness; you have a heart of gold.';
           break;
         case 'e7h3':
           newMessage = 'I love your adventurous spirit, always up for trying new experiences and exploring new places together.';
           break;
         case 'y4n1':
-          newMessage = 'I love your creativity; you have such a unique perspective on life and always think outside the box.';
+          newMessage = 'I love your laugh and voice, it cures my retardation.';
           break;
         case 'g6k9':
           newMessage = 'I love your confidence and self-assurance; you know who you are and aren\'t afraid to be yourself.';
@@ -120,19 +120,19 @@ const CodeInputContainer = () => {
           newMessage = 'I love your thoughtfulness; you always go out of your way to make me feel loved and appreciated.';
           break;
         case 'r9z2':
-          newMessage = 'I love your optimism and positive outlook on life; you inspire me to see the good in every situation.';
+          newMessage = 'I love how you support me, i feel like Im a better person because of you';
           break;
         case 'f2p7':
-          newMessage = 'I love your strength and resilience; you face challenges head-on and never give up.';
+          newMessage = 'I love how strong you are, facing every challenge without ever backing down.';
           break;
         case 'v8j6':
-          newMessage = 'I love your sense of style and elegance; you always know how to put together the perfect outfit.';
+          newMessage = 'I love your hugs; they\'re like a comforting drug I can\'t get enough of.';
           break;
         case 'h5m3':
-          newMessage = 'I love your determination and drive to succeed in everything you do.';
+          newMessage = 'I love the feel of your skin; it\'s so smooth and always comforting to touch.';
           break;
         case 't1e4':
-          newMessage = 'I love your curiosity and thirst for knowledge; you\'re constantly seeking to learn and grow.';
+          newMessage = 'I love fucking you';
           break;
         default:
           newMessage = 'No message available.';
