@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vday/static/css/main.57284a9f.css",
-    "main.js": "/vday/static/js/main.cbaa8879.js",
+    "main.css": "/vday/static/css/main.dac160ce.css",
+    "main.js": "/vday/static/js/main.7aab8233.js",
     "static/js/592.9c3fa692.chunk.js": "/vday/static/js/592.9c3fa692.chunk.js",
     "static/media/33049-113110.png": "/vday/static/media/33049-113110.fd8f14039363bb22ce64.png",
-    "static/media/Log.png": "/vday/static/media/Log.ccab287b21926b61d666.png",
     "static/media/pat.gif": "/vday/static/media/pat.1694d5441af89c5407d5.gif",
+    "static/media/Log.png": "/vday/static/media/Log.f85a61c2283772b4b8df.png",
     "index.html": "/vday/index.html",
-    "main.57284a9f.css.map": "/vday/static/css/main.57284a9f.css.map",
-    "main.cbaa8879.js.map": "/vday/static/js/main.cbaa8879.js.map",
+    "main.dac160ce.css.map": "/vday/static/css/main.dac160ce.css.map",
+    "main.7aab8233.js.map": "/vday/static/js/main.7aab8233.js.map",
     "592.9c3fa692.chunk.js.map": "/vday/static/js/592.9c3fa692.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57284a9f.css",
-    "static/js/main.cbaa8879.js"
+    "static/css/main.dac160ce.css",
+    "static/js/main.7aab8233.js"
   ]
 }
