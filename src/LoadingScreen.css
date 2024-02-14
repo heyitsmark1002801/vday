@@ -12,9 +12,9 @@
 }
 
 .loading-screen::before {
-  content: "Loading...";
+  content: "Kaitlyn V DAY";
   position: absolute;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 24px;
   opacity: 0;
   animation: fade-in 4.5s linear infinite; /* Animation for word appearance */
@@ -23,7 +23,6 @@
 .loading-spinner {
   border: 7px solid #f3f3f3;
   border-top: 7px solid #f7ae65;
-  background-image: url('Pat.webp');
   border-radius: 50%;
   width: 100px;
   height: 100px;
