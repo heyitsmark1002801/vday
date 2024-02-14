@@ -138,7 +138,7 @@ const CodeInputContainer = () => {
           newMessage = 'No message available.';
       }
     } else {
-      newMessage = `Code ${code} has not been unlocked yet.`;
+      newMessage = `Code has not been unlocked yet.`;
     }
     setMessage(newMessage);
   };
